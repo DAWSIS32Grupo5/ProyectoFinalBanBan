@@ -1,0 +1,55 @@
+/*
+Altura requerida de los padres del carrusel de página completa para que el carrusel muestre correctamente */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Carrusel de página completa en sí*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Animación de barra de navegación */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+  .navbar a:hover{
+    background-color: rgba(14, 54, 91, 0.79);
+    border-radius: 45px;
+
+  }
+.top-nav-collapse {
+  background-color: #0d59f0; }
+
+/* Agregar color a la barra de navegación en el móvil */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #0d59f0; } }
+
+/* Color de pie de página en aras de la coherencia con Navbar */
+.page-footer {
+  background-color: #0d56f0; }
+
+  .bod{
+      background-image: url(http://www.fondosni.com/images/2014-02-19/Fondo%20abstracto%20con%20colores%20pasteles%20en%20diagonal-344435.jpg);
+    color: rgb(11, 11, 11);
+    height: 100%;
+
+  }
+  .bod1{
+    background-color: rgba(44, 226, 237, 0.73);
+  color: rgb(11, 11, 11);
+
+    font-size: 30px;
+  font-family: 'Gloria Hallelujah', cursive;
+  height: 100%;
+ padding-top: 0px ;
+  }
+  .k{
+    font-size: 100px;
+  }
